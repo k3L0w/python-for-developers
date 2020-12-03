@@ -1,3 +1,7 @@
+"""
+Objetivo: exibir listas definidas por categorias de instrumentos musicais.
+"""
+
 # Uma lista de instrumentos musicais comuns
 instruments = ['bass', 'drums', 'guitar', 'keyboard']
 print()
