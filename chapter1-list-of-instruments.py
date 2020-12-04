@@ -6,13 +6,13 @@ Objetivo: exibir listas definidas por categorias de instrumentos musicais.
 instruments = ['bass', 'drums', 'guitar', 'keyboard']
 print()
 print('------------')
-print('Instruments:')
+print('Instrumentos:')
 print('------------')
 print(instruments)
 print()
 
 print()
-print("Instrumentos musicias são categorizados em três grandes grupos:")
+print("Instrumentos musicais são categorizados em três grandes grupos:")
 print("1. percussão")
 print("2. sopro")
 print("3. cordas")
@@ -46,7 +46,8 @@ print()
 # Instrumentos musicais de corda
 print()
 cordas = ["alaúde", "baixo", "balalaica", "bandola", "bandolim", "banjo", "berimbau", "cavaquinho", "charango", "citara", "contrabaixo", "cordofone", "guitarra", "harpa", "rabeca", "ukulele", "viola", "violão", "violino", "violoncelo"]
-print("3. O som é obtido por meio da movimentação do ar nos tubos que constituem esses instrumentos")
+print("3. Instrumentos musicais de cordas")
+print("Nos instrumentos de cordas, o som é obtido pela vibração de cordas percutidas ou friccionadas")
 for corda in cordas:
     print(".", corda)
 print()
