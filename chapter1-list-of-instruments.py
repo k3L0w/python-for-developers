@@ -1,13 +1,13 @@
-"""
-Objetivo: exibir listas definidas por categorias de instrumentos musicais.
-"""
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-# Uma lista de instrumentos musicais mais comuns atualmente
+# Objetivo: exibir listas definidas por categorias de instrumentos musicais.
+# Lista de instrumentos musicais mais comuns atualmente
 instruments = ['bass', 'drums', 'guitar', 'keyboard']
 print()
-print('------------')
-print('Instrumentos:')
-print('------------')
+print('--------------------------------------')
+print('* Instrumentos musicais mais comuns: *')
+print('--------------------------------------')
 print(instruments)
 print()
 
@@ -52,7 +52,7 @@ for corda in cordas:
     print(".", corda)
 print()
 
-# Instrumentos musicais de teclas se classificam como instrumentos de cordas.
+# Instrumentos musicais de teclas são classificados como instrumentos de cordas.
 print()
 teclas = ["acordeão", "clavicórdio", "concertina", "cravo", "espineta", "órgão", "piano", "sintetizador", "teclado"]
 print("3. Instrumentos de teclas, também se classificam como instrumentos de cordas")
