@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 # Objetivo: exibir listas definidas por categorias de instrumentos musicais.
