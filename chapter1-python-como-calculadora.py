@@ -50,4 +50,4 @@ print()
 
 print("2. Meire fez dez anos de idade em 6 de dezembro de 2020. Calcule quantidades de dias viveu nesse perído.")
 print("   Meire nasceu em 6 de dezembro de 2010, logo, Meire viveu, nesse período:", 10 * 365, "dias.")
-
+print("   Meire viveu nesse período:", 3650 * 24, "horas.")
