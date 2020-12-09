@@ -58,4 +58,51 @@
 #35
 
 #Função print no Python
+#woman = "Aninha"
+#print(woman)
+#Aninha
+
+#Listas no Python
+#Listas no Python são definidas pelos caracteres []. 
+#Vide:
+#>>>nomes = ['Antonio', 'Divina', 'Elitania', 'Elisangela', 'Zirlandia', 'Rute', 'Sara', 'Raquel', 'Kesia']
+#>>>print(nomes)
+#['Antonio', 'Divina', 'Elitania', 'Elisangela', 'Zirlandia', 'Rute', 'Sara', 'Raquel', 'Kesia']
+#
+
+#Outro exemplo de lista
+#>>> sena = [5, 7, 11, 13, 45, 57]
+#>>> print(sena)
+#[5, 7, 11, 13, 45, 57]
+
+#>>> len(sena)
+#6
+
+#>>> len(str(sena)) #nesse caso, str converte a lista em strings.
+#22
+
+#>>> organizando uma lista (ordem crescente)
+#>>> sena.sort()
+#>>> sena
+#[5, 7, 11, 13, 45, 57]
+
+#>>> organizando uma lista (ordem decrescente)
+#>>> sena.reverse()
+#[57, 45, 13, 11, 7, 5]
+
+#>>> adicionando item a lista
+#>>> sena.append(15)
+#>>> sena
+#[5, 7, 11, 13, 45, 57, 15]
+
+#Agora é só utilizar a função .sort() para organizar por ordem crescente ou decrescente com .reverse()
+#Organizando com .sort()
+#>>> sena.sort()
+#>>> sena
+#[5, 7, 11, 13, 15, 45, 57]
+
+#Organizando com .reverse()
+#>>> sena.reverse()
+#>>> sena
+#[57, 45, 15, 13, 11, 7, 5]
 
