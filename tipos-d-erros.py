@@ -32,3 +32,15 @@
 #Traceback (most recent call last):
 #  File "<stdin>", line 1, in <module>
 #IndexError: list index out of range
+
+
+#--------------
+#AttributeError
+#--------------
+#>>> l1 = ['lista']
+#>>> l1
+#['lista']
+#>>> l1.upper()
+#Traceback (most recent call last):
+#  File "<stdin>", line 1, in <module>
+#AttributeError: 'list' object has no attribute 'upper'

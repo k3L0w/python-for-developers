@@ -11,7 +11,7 @@
 #Esta função retorna CAIXA ALTA para as strings.
 #vide:
 #>>> "texto".upper()
-#TEXTO
+#'TEXTO'
 #>>>
 
 #Função len()
@@ -32,7 +32,7 @@
 
 #Função int
 #Converte números (não inteiros) em números inteiros.
-#int(123,45)
+#int(123.45)
 #123
 #>>>
 
@@ -105,4 +105,20 @@
 #>>> sena.reverse()
 #>>> sena
 #[57, 45, 15, 13, 11, 7, 5]
+
+#Indices em listas
+#Importante salientar que o índice se inicia em 0.
+#>>> sena
+#[1, 3, 8, 12, 12, 23, 33, 48]
+#>>> print(sena[1])
+#1 #O número é o índice '0' da lista, o primeiro da lista, o indice inicia-se em '0'.
+
+#Deletar um item da lista, utilizando pop.
+#>>>sena
+#[1, 3, 8, 12, 12, 23, 33, 48]
+#>>> sena.pop(0)
+#1
+#>>> sena
+#[3, 8, 12, 12, 23, 33, 48]
+
 
