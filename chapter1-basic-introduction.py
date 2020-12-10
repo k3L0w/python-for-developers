@@ -110,15 +110,42 @@
 #Importante salientar que o índice se inicia em 0.
 #>>> sena
 #[1, 3, 8, 12, 12, 23, 33, 48]
-#>>> print(sena[1])
-#1 #O número é o índice '0' da lista, o primeiro da lista, o indice inicia-se em '0'.
+#>>> print(sena[0])
+#1 #Neste exemplo, o número 1 é o índice '0' da lista, o primeiro da lista, o indice inicia-se em '0'.
+
+#Outros exemplos de índices
+#>>> print(sena)
+#[3, 8, 12, 12, 23, 33, 48]
+#>>> print(sena[-1])
+#48
+#>>> print(sena[-2])
+#33
+#>>> print(sena[-3])
+#23
+#>>> print(sena[-4])
+#12
+#>>> print(sena[-5])
+#12
+#>>> print(sena[-6])
+#8
+#>>> print(sena[-7])
+#3
 
 #Deletar um item da lista, utilizando pop.
 #>>>sena
 #[1, 3, 8, 12, 12, 23, 33, 48]
 #>>> sena.pop(0)
 #1
-#>>> sena
+#>>> print(sena)
 #[3, 8, 12, 12, 23, 33, 48]
 
+#Dicionários em Python
+#Semelhante a listas, dicionários são acessados utilizando-se chaves, ao inves de índice.
+#Chaves nos dicionários podem ser string ou números.
+#sintaxe:
+#>>> {} #dicionário vazio.
 
+#>>> participant = {'name':'k3L0w','age':2020-1975}
+#>>> print(participant)
+#{'name': 'k3L0w', 'age': 45}
+#>>>
