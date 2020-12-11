@@ -13,7 +13,7 @@
 
 
 #----------
-#name Error
+#nameError
 #----------
 #Vide exemplo:
 #>>> city = "Sao Paulo"
@@ -44,3 +44,13 @@
 #Traceback (most recent call last):
 #  File "<stdin>", line 1, in <module>
 #AttributeError: 'list' object has no attribute 'upper'
+
+#--------
+#KeyError
+#--------
+#>>> participant['cidade']
+#Traceback (most recent call last):
+#  File "<stdin>", line 1, in <module>
+#KeyError: 'cidade'
+#>>>
+

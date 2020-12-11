@@ -145,7 +145,57 @@
 #sintaxe:
 #>>> {} #dicionário vazio.
 
-#>>> participant = {'name':'k3L0w','age':2020-1975}
+#>>> participant = {'name':'aninha','city':'Goiania','age':18,'numbers':[7,45,120]}
+#>>> participant
+# {'name': 'aninha', 'city': 'Goiania', 'age': 18, 'numbers': [7, 45, 120]}
+#>>> 
+
+# Onde: 
+# . A chave 'name' aponta o valor 'aninha' (um objeto do tipo 'string').
+# . A chave 'city' aponta para o valor 'Goiania' (um objeto do tipo 'string').
+# . A chave 'age' aponta para o valor 18 (um objeto do tipo número inteiro).
+# . A chave 'numbers' aponta para o valor [7, 45, 120] (uma lista de três números).
+
+# Verificando o conteúdo de chaves individualmente
+##>>> print(participant['name'])
+#aninha
+#>>> print(participant['age'])
+#18
+#>>> print(participant['city'])
+#Goiania
+#>>> print(participant['numbers'])
+#[7, 45, 120]
+#>>> 
+
+# Uso lista ou dicionário?
+# . lista -> para sequência ordenada de itens.
+# . dicionário -> para associar valores a chaves para achá-las eficientemente (pela chave).
+
+# Listas e dicionários são MUTÁVEIS, podem ser alterados em sua composição.
+#>>> participant['language'] = 'English'
+#>>> participant
+#{'name': 'aninha', 'city': 'Goiania', 'age': 18, 'numbers': [7, 45, 120], 'language': 'English'}
+#>>> 
+
+# Assim como nas listas, a função len() retorna os pares de chave-valor que um dicionário contém.
+# Vide:
+# >>> len(participant)
+# 5
+
+# Deletar um item do dicionário:
+#>>> participant.pop('numbers')   
+# [7, 45, 120]
 #>>> print(participant)
-#{'name': 'k3L0w', 'age': 45}
+# {'name': 'aninha', 'city': 'Goiania', 'age': 18, 'language': 'English'}
+#>>> len(participant)
+# 4
 #>>>
+
+ # Mudar o valor associado a uma chave no dicionário:
+ # participant['age'] = 19
+ # print(participant['age'])
+ # 19
+ #>>> participant
+#{'name': 'aninha', 'city': 'Goiania', 'age': 19, 'language': 'English'}
+
+
