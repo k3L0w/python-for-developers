@@ -198,4 +198,55 @@
  #>>> participant
 #{'name': 'aninha', 'city': 'Goiania', 'age': 19, 'language': 'English'}
 
+# BOOLEANOS (True, False)
+# Grande parte da programação consiste em comparar coisas, números principalmente.
+# Na comparação é utilizado os caracteres:
+# > (maior)
+# < (menor)
+# == (igual)
+# != (diferente)
+
+# Exemplos:
+# >>> 5 > 3
+# True
+# >>> 3 > 5
+# False
+# >>> 1 == 1
+# True
+# >>> 3 != 2
+# True
+# >>> 6 >= 14 / 2
+# False
+# >>> 6 >= 12 / 2
+# True
+
+#Operador and e or.
+# and -> operador and, as duas comparações terão que ser verdadeiras para que a expressão seja verdadeira (True).
+# or -> operardor or, apenas uma das comparações precisa ser verdadeira para que a expressão seja verdadeira (True).
+
+# >>> 7 > 6 and 5 > 4 #Operação com and
+# True
+
+# >>> 7 < 6 or 4 < 5 #Operação com or
+# True
+# >>> 
+
+# >>> a = True
+# >>> 2 > 1 == a
+# True
+# >>>
+
+# >>> True and True
+# True
+# >>> True and True and True
+# True
+# >>> True and False
+# False
+# >>> True or False
+# True
+# >>> False or False
+# False
+# >>> 
+
+# Booleanos são excelentes recursos na programação!!!
 

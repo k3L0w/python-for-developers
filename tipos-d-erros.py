@@ -54,3 +54,11 @@
 #KeyError: 'cidade'
 #>>>
 
+#----------
+#TypeError
+#----------
+#>>> 1 > 'aninha'
+#Traceback (most recent call last):
+#  File "<stdin>", line 1, in <module>
+#TypeError: '>' not supported between instances of 'int' and 'str'
+#>>> 
