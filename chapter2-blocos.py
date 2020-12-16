@@ -31,10 +31,10 @@ ou declação de uma nova estrutura (função, por exemplo)
 
 #Vide
 
-# Para i na lista 234, 654, 378, 798:
+# Para i na lista 234, 654, 378, 798
 
 print()
-for i in [234, 654, 378,798]:
+for i in [234, 654, 378, 798]:
     # Se o resto dividindo por 3 for igual a zero:
     if i % 3 == 0:
         # Imprime...
@@ -62,5 +62,5 @@ for s in [1, 2, 3, 4, 6, 7, 8, 9,
     # Novamente, se o resto em s dividido por 3 for 0:
     if s % 3 == 0:
         # Imprime...
-        print(s, '/ 3 = ', s / 3)
+        print(s, '/ 3 =', s / 3)
 print()
