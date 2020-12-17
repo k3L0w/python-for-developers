@@ -34,3 +34,5 @@ elif 26 <= temp <= 35:
     print('Quente')
 else:
     print('Muito quente!')
+print()
+
