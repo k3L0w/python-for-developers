@@ -37,3 +37,12 @@ for x in range(0, 3):
     s = s + x
 print(s)
 print()
+
+"""
+É importante salientar que o interador(m, n, p) é muito importante em laços (loop),
+pois sempre retornará uma lista de inteiros, um de item de cada vez.
+Onde:
+m -> inicio
+n -> fim
+p -> passos
+"""
