@@ -33,9 +33,12 @@ else
 s = 0
 
 print()
-for x in range(0, 3):
+for x in range(0, 100):
     s = s + x
-print(s)
+    print(s) #Apresenta a soma de cada item do interador(range).
+print(" -------------------")
+print("[", 'SOMA TOTAL =', s, "]") #Exibe o resultado de todos os itens do interador(range).
+print(" -------------------")
 print()
 
 """
